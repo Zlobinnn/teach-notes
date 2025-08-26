@@ -1,11 +1,9 @@
-import { StudentsList } from "@/components/StudentsList";
-import Image from "next/image";
+import { Student } from "@/components/Student/Student";
 
 export default function Home() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-neutral-100">
-        <StudentsList/>
-        
+        <Student name="Милана"/>
     </div>
   );
 }
